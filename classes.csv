@@ -70,8 +70,6 @@
 "textual";"Entradas";"Resgates";"Resgate Poupança"
 "textual";"Entradas";"Resgates";"Transferido da poupança"
 "textual";"Entradas";"Transferências";"DOC Crédito em Conta"
-"textual";"Gastos em Dinheiro";;"Banco 24"
-"textual";"Gastos em Dinheiro";;"Saque"
 "textual";"Impostos/Taxas";"Impostos";"DARF/RFB"
 "textual";"Impostos/Taxas";"Impostos";"Impostos"
 "textual";"Impostos/Taxas";"Impostos";"Taxa Semestral"
@@ -93,6 +91,10 @@
 "textual";"Outros";"Outros";"FELIPE ANTONIO"
 "textual";"Outros";"Outros";"MARISA SCHIMME"
 "textual";"Outros";"Outros";"RAFAEL M SANTO"
+"textual";"Outros";"Transferencias";"Emissão de DOC"
+"textual";"Outros";"Transferencias";"TED"
+"textual";"Outros";"Gastos em Dinheiro";"Banco 24"
+"textual";"Outros";"Gastos em Dinheiro";"Saque"
 "textual";"Presentes";"Presentes";"BRINQUEDOS"
 "textual";"Presentes";"Presentes";"CAMICADO"
 "textual";"Presentes";"Presentes";"PRESENTES"
@@ -189,8 +191,6 @@
 "textual";"Saúde";"Yoga";"SOC TEOSOFICA"
 "textual";"Saúde";"Yoga";"SOCIEDADE TEOS"
 "textual";"Saúde";"Yoga";"VIPASSANA"
-"textual";"Transferencias";;"Emissão de DOC"
-"textual";"Transferencias";;"TED"
 "textual";"Utilidades";"Bike";"BIKE"
 "textual";"Utilidades";"Energia";"Energia Elétrica"
 "textual";"Utilidades";"Energia";"Pagamento conta luz"
@@ -238,8 +238,13 @@
 "amount";"Diversao";"Festa";"PEPITA";-3562.91
 "amount";"Entradas";"Transferências";"DOC";1000.00
 "amount";"Financiamento";;"TED";-2000.00
+"amount";"Investimento";"Renda Fixa";"TED";-4140.00
+"amount";"Investimento";"Renda Fixa";"TED";-3067.99
+"amount";"Investimento";"Renda Fixa";"TED";-2032.21
 "amount";"Saúde";"Consulta";"Cheque";-320.00
 "amount";"Saúde";"Consultas/Exames";"Cheque Compensado";-2000
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-390.96
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-440.00
-"amount";"Utilidades";"Condomínio";"Pagamento de Título";-587
+"amount";"Utilidades";"Condomínio";"Pagamento de Título";-587.00
+"amount";"Utilidades";"Condomínio";"Pagamento de Título";-598.00
+"amount";"Viagem";"Câmbio";"Saque com Cartão";-1135.32
