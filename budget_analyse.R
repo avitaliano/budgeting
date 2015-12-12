@@ -27,7 +27,13 @@ dt$stat.end_date <- as.Date(dt$stat.end_date)
 dt$t.date <- as.Date(dt$t.date)
 
 dt[, t.month := as.Date(strftime(t.date, "%Y-%m-01")) ]
+
+# classfies generic classes
 dt[, t.class := 'sem categoria']
+dt[ str_detect(t.memo, "Cheque Compensado"), t.class := 'Pagamentos']
+dt[ str_detect(t.memo, "Pagamento de Título"), t.class := 'Pagamentos']
+dt[ str_detect(t.memo, "Pagto via Auto-Atend"), t.class := 'Pagamentos']
+dt[ str_detect(t.memo, "Transferência"), t.class := 'Transferencias']
 
 classify_transaction_textual <- function(dt, classes){
         
@@ -53,7 +59,79 @@ classify_transaction_amount <- function(dt, classes){
         dt
 }
 
+plot_expenses_by_class <- function(dt, in_year, in_currency){
+        
+        # sum by class
+        sum_by_year_class <- dt[ order(year(t.month)), sum(t.amount), 
+                                 by = .(year(t.month), stat.currency,t.class)]
+        
+        # filter the year, currency and get expenses '< 0'
+        d <- sum_by_year_class[year == in_year 
+                               & stat.currency == in_currency ][order(-V1)]
+        
+        # filter investments 
+        d <- d[t.class != "Investimento"]
+        
+        # signal
+        if ( max(d$V1) < 0 ) {
+                slices <- d$V1 * -1        
+        } else {
+                slices <- d$V1
+        }
+        
+        lbls <- d$t.class
+
+        pct <- round(slices/sum(slices)*100)
+        lbls <- paste(lbls, pct) # add percents to labels 
+        lbls <- paste(lbls,"%",sep="") # ad % to labels 
+        
+        total <- sum(d$V1) * -1
+        
+        main <- paste("Gastos por Categoria em ", in_year, ": (",  in_currency, ") ",
+                      format(total, digits=10, nsmall=2, decimal.mark=",", big.mark="."),
+                      sep = "")
+        
+        pie(slices, labels = lbls, main = main, col=rainbow(length(lbls)))
+}
+
+plot_expenses_by_subclass <- function(dt, in_year, in_currency, in_class){
+        
+        # sum by subclass
+        sum_by_year_class <- dt[ order(year(t.month)), sum(t.amount), 
+                                 by = .(year(t.month), stat.currency,t.class, t.subclass)]
+        
+        # filter the year, currency, class and get expenses '< 0'
+        d <- sum_by_year_class[year == in_year 
+                               & stat.currency == in_currency 
+                               & t.class == in_class ][order(-V1)]
+        
+        # signal
+        if ( max(d$V1) < 0 ) {
+                slices <- d$V1 * -1        
+        } else {
+                slices <- d$V1
+        }
+        
+        lbls <- d$t.subclass
+        
+        pct <- round(slices/sum(slices)*100)
+        lbls <- paste(lbls, pct) # add percents to labels 
+        lbls <- paste(lbls,"%",sep="") # ad % to labels 
+        
+        total <- sum(d$V1) * -1
+        
+        main <- paste("Gastos por Categoria em ", in_year, ": (",  in_currency, ") ",
+                      format(total, digits=10, nsmall=2, decimal.mark=",", big.mark="."),
+                      sep = "")
+        
+        pie(slices, labels = lbls, main = main, col=rainbow(length(lbls)))
+}
+
+# classifies expends/incomes
 dt <- classify_transaction_textual(dt, classes)
 dt <- classify_transaction_amount(dt, classes)
 
-dt[ t.class == 'sem categoria', .(t.month, t.memo, t.class, t.amount)][order(t.month)]
+dt[ t.class == 'sem categoria' & t.date > '2014-01-01', .(t.month, t.memo, t.class, t.amount)][order(t.month)]
+
+sum_by_year_class <- dt[ order(year(t.month)), sum(t.amount), by = .(year(t.month), t.class, t.subclass)]
+sum_by_year_class[year == 2015][order(t.class)]
