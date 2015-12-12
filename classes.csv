@@ -1,250 +1,250 @@
 "match_type";"class";"subclass";"match_expression";"match_amount"
-"textual";"Alimentação";"Mercado";"ALIMENTOS"
-"textual";"Alimentação";"Mercado";"BIB BOX"
-"textual";"Alimentação";"Mercado";"BIG BOX"
-"textual";"Alimentação";"Mercado";"CARREFOUR"
-"textual";"Alimentação";"Mercado";"CH PLANALTAO"
-"textual";"Alimentação";"Mercado";"CONVENIENCIA"
-"textual";"Alimentação";"Mercado";"ELEVE MERCADO"
-"textual";"Alimentação";"Mercado";"EXTRA "
-"textual";"Alimentação";"Mercado";"FRUTARIA"
-"textual";"Alimentação";"Mercado";"HORTIFRUTI"
-"textual";"Alimentação";"Mercado";"JC SILVA NETO"
-"textual";"Alimentação";"Mercado";"MEL DO SOL"
-"textual";"Alimentação";"Mercado";"PAO DE ACUCAR"
-"textual";"Alimentação";"Mercado";"REDE DA ECONOMIA"
-"textual";"Alimentação";"Mercado";"SUPER ADEGA"
-"textual";"Alimentação";"Mercado";"SUPERMERCADOS"
-"textual";"Alimentação";"Mercado";"TORTERIA"
-"textual";"Alimentação";"Mercado";"TOSCANELLO"
-"textual";"Alimentação";"Mercado";"VERDURAO"
-"textual";"Alimentação";"Mercado";"WAL MART"
-"textual";"Alimentação";"Padaria";"CASA DOCES E QUEIJO"
-"textual";"Alimentação";"Padaria";"PADARIA"
-"textual";"Alimentação";"Padaria";"PAES "
-"textual";"Alimentação";"Padaria";"PANIFICADORA"
-"textual";"Alimentação";"Padaria";"PAO "
-"textual";"Carro";"Combustível";"CASCOL COMBUSTIVEIS"
-"textual";"Carro";"Combustível";"POSTO "
-"textual";"Carro";"Combustível";"SHELL"
-"textual";"Carro";"Combustível";"VERDE AMARELO"
-"textual";"Carro";"Estacionamento";"AEROPORTO BRASILIA"
-"textual";"Carro";"Estacionamento";"EST. IGUATEMI"
-"textual";"Carro";"Impostos/Multas";"DETRAN"
-"textual";"Carro";"Impostos/Multas";"INSTITUTO BOTELHO"
-"textual";"Carro";"Manutenção";"BATERIA"
-"textual";"Carro";"Manutenção";"HONDA PLAZA"
-"textual";"Carro";"Manutenção";"PIONEIRA DA BORRACHA"
-"textual";"Carro";"Manutenção";"SMAFF ASA NOR"
-"textual";"Carro";"Seguro";"Pagto Mensalidade Seguro"
-"textual";"Cartão Crédito";"Cartão Crédito";"PGTO DEBITO CONTA"
-"textual";"Cartão Crédito";"Cartão Crédito";"Pagto cartão crédito"
-"textual";"Compras";"Casa";"ATLANTIDA"
-"textual";"Compras";"Casa";"DULAR"
-"textual";"Compras";"Casa";"LEROY MERLIN"
-"textual";"Compras";"Casa";"TOK"
-"textual";"Compras";"Casa";"ZELO-BRASILIA"
-"textual";"Compras";"Compras";"SARAIVA"
-"textual";"Compras";"Compras";"SUBMARINO"
-"textual";"Compras";"Livros";"EDITORA ANTROPOSOFICA"
-"textual";"Compras";"Livros";"EDITORA TEOSOFICA"
-"textual";"Compras";"Livros";"LIVR MARTINS FONTES"
-"textual";"Compras";"Livros";"LIVRARIA "
-"textual";"Compras";"Roupas";"CAMISETAS LEGAIS"
-"textual";"Compras";"Roupas";"DAMYLLER"
-"textual";"Compras";"Roupas";"DECATHLTON"
-"textual";"Compras";"Roupas";"HENRING STORE"
-"textual";"Compras";"Roupas";"HERING"
-"textual";"Compras";"Roupas";"NETSHOES"
-"textual";"Compras";"Roupas";"VILA ROMANA"
-"textual";"Diversao";"Cinema";"CINEMA"
-"textual";"Diversao";"Diversao";"KART "
-"textual";"Diversao";"Diversao";"RIO 2016"
-"textual";"Entradas";"Alugueis";"PIRAMID IMOV"
-"textual";"Entradas";"Aluguel";"DOC-Fornecedor"
-"textual";"Entradas";"Depósito";"Depósito"
-"textual";"Entradas";"Devoluções";"Recebimentos Diversos"
-"textual";"Entradas";"Diárias";"Diárias"
-"textual";"Entradas";"Proventos";"BACEN"
-"textual";"Entradas";"Resgates";"Resgate BB CDB"
-"textual";"Entradas";"Resgates";"Resgate Poupança"
-"textual";"Entradas";"Resgates";"Transferido da poupança"
-"textual";"Entradas";"Transferências";"DOC Crédito em Conta"
-"textual";"Impostos/Taxas";"Impostos";"DARF/RFB"
-"textual";"Impostos/Taxas";"Impostos";"Impostos"
-"textual";"Impostos/Taxas";"Impostos";"Taxa Semestral"
-"textual";"Impostos/Taxas";"Impostos";"Taxas"
-"textual";"Impostos/Taxas";"Impostos";"VENDACAMBIO"
-"textual";"Impostos/Taxas";"Tarifa";"Tarifa"
-"textual";"Impostos/Taxas";"Tarifa";"tarifa"
-"textual";"Investimento";"Projeto Mirtilo";"FELIPE VITALIA"
-"textual";"Investimento";"Projeto Mirtilo";"HIDROMAR"
-"textual";"Investimento";"Renda Fixa";"Aplicação BB CDB DI"
-"textual";"Investimento";"Renda Fixa";"Aplicação Poupança"
-"textual";"Investimento";"Renda Fixa";"Cooperforte"
-"textual";"Investimento";"Renda Fixa";"LCA"
-"textual";"Investimento";"Renda Fixa";"LCI"
-"textual";"Investimento";"Renda Fixa";"Tesouro Direto-Compra"
-"textual";"Outros";"Outros";"BRAPPAS"
-"textual";"Outros";"Outros";"CINE FOTO JM"
-"textual";"Outros";"Outros";"Compra com Cartão"
-"textual";"Outros";"Outros";"FELIPE ANTONIO"
-"textual";"Outros";"Outros";"MARISA SCHIMME"
-"textual";"Outros";"Outros";"RAFAEL M SANTO"
-"textual";"Outros";"Transferencias";"Emissão de DOC"
-"textual";"Outros";"Transferencias";"TED"
-"textual";"Outros";"Gastos em Dinheiro";"Banco 24"
-"textual";"Outros";"Gastos em Dinheiro";"Saque"
-"textual";"Presentes";"Presentes";"BRINQUEDOS"
-"textual";"Presentes";"Presentes";"CAMICADO"
-"textual";"Presentes";"Presentes";"PRESENTES"
-"textual";"Restaurantes";"Almoço";"AMOR A NATUREZA"
-"textual";"Restaurantes";"Almoço";"ARABEKS"
-"textual";"Restaurantes";"Almoço";"ARABESK"
-"textual";"Restaurantes";"Almoço";"ASHRAM"
-"textual";"Restaurantes";"Almoço";"BAR BRAHMA"
-"textual";"Restaurantes";"Almoço";"BENDITA GULA"
-"textual";"Restaurantes";"Almoço";"BIER HAUS"
-"textual";"Restaurantes";"Almoço";"CANTUCCI"
-"textual";"Restaurantes";"Almoço";"COZINHA E SABOR"
-"textual";"Restaurantes";"Almoço";"DONA LENHA"
-"textual";"Restaurantes";"Almoço";"FLOR DE LOTUS"
-"textual";"Restaurantes";"Almoço";"GRANDE MURALHA"
-"textual";"Restaurantes";"Almoço";"GREEN S"
-"textual";"Restaurantes";"Almoço";"GREENS"
-"textual";"Restaurantes";"Almoço";"MANARA"
-"textual";"Restaurantes";"Almoço";"MAORI"
-"textual";"Restaurantes";"Almoço";"MONARDO"
-"textual";"Restaurantes";"Almoço";"NATURETTO"
-"textual";"Restaurantes";"Almoço";"PEIXE NA REDE"
-"textual";"Restaurantes";"Almoço";"PORKETA"
-"textual";"Restaurantes";"Almoço";"SABOR GLACE"
-"textual";"Restaurantes";"Almoço";"SANCHO PANCA"
-"textual";"Restaurantes";"Almoço";"SEVERINA"
-"textual";"Restaurantes";"Almoço";"TAURUS EVENTOS"
-"textual";"Restaurantes";"Almoço";"TICIANA WERNER"
-"textual";"Restaurantes";"Café";"CAFE"
-"textual";"Restaurantes";"Café";"COFFE CO"
-"textual";"Restaurantes";"Café";"MARCELO G MEIR"
-"textual";"Restaurantes";"Café";"NESPRESSO"
-"textual";"Restaurantes";"Café";"OBJETO ENCONTRADO"
-"textual";"Restaurantes";"Restaurantes";"A TRIBO"
-"textual";"Restaurantes";"Restaurantes";"ALL BLACK"
-"textual";"Restaurantes";"Restaurantes";"ANA MARIA CAIXETA"
-"textual";"Restaurantes";"Restaurantes";"BABBO GIOVANNI"
-"textual";"Restaurantes";"Restaurantes";"BANANALAND"
-"textual";"Restaurantes";"Restaurantes";"BAR "
-"textual";"Restaurantes";"Restaurantes";"BARBIRO"
-"textual";"Restaurantes";"Restaurantes";"BATTATARIA"
-"textual";"Restaurantes";"Restaurantes";"BIER FASS"
-"textual";"Restaurantes";"Restaurantes";"BUDA BEACH"
-"textual";"Restaurantes";"Restaurantes";"CAMARAO"
-"textual";"Restaurantes";"Restaurantes";"CASA DA ROCA ALIMENTOS"
-"textual";"Restaurantes";"Restaurantes";"CERVEJAS"
-"textual";"Restaurantes";"Restaurantes";"CHIQUITA"
-"textual";"Restaurantes";"Restaurantes";"CHOPARIA"
-"textual";"Restaurantes";"Restaurantes";"CONFRARIA"
-"textual";"Restaurantes";"Restaurantes";"EMPORIO SOARES"
-"textual";"Restaurantes";"Restaurantes";"FAUSTO"
-"textual";"Restaurantes";"Restaurantes";"FORTUNELLO"
-"textual";"Restaurantes";"Restaurantes";"FRATELLO"
-"textual";"Restaurantes";"Restaurantes";"GRILL"
-"textual";"Restaurantes";"Restaurantes";"KOJIMA"
-"textual";"Restaurantes";"Restaurantes";"KONI"
-"textual";"Restaurantes";"Restaurantes";"LA FORNACELLA"
-"textual";"Restaurantes";"Restaurantes";"LA GIOCONDA"
-"textual";"Restaurantes";"Restaurantes";"LE JARDIN"
-"textual";"Restaurantes";"Restaurantes";"LIBANUS"
-"textual";"Restaurantes";"Restaurantes";"MARZUK"
-"textual";"Restaurantes";"Restaurantes";"MODESTIA A PARTE"
-"textual";"Restaurantes";"Restaurantes";"MONUMENTAL"
-"textual";"Restaurantes";"Restaurantes";"NA VENDA UK BRAZIL"
-"textual";"Restaurantes";"Restaurantes";"NANNAI"
-"textual";"Restaurantes";"Restaurantes";"NAPOLITANA COMERCIO"
-"textual";"Restaurantes";"Restaurantes";"NAU "
-"textual";"Restaurantes";"Restaurantes";"NINNY"
-"textual";"Restaurantes";"Restaurantes";"NOI "
-"textual";"Restaurantes";"Restaurantes";"O BOTECO"
-"textual";"Restaurantes";"Restaurantes";"OUTBACK"
-"textual";"Restaurantes";"Restaurantes";"PARVATI "
-"textual";"Restaurantes";"Restaurantes";"PINELLA"
-"textual";"Restaurantes";"Restaurantes";"PIZZARIA"
-"textual";"Restaurantes";"Restaurantes";"PIZZERIA"
-"textual";"Restaurantes";"Restaurantes";"PORTAL CHAPEU DE BICO"
-"textual";"Restaurantes";"Restaurantes";"RANCHO CANABRAVA"
-"textual";"Restaurantes";"Restaurantes";"REST "
-"textual";"Restaurantes";"Restaurantes";"REST."
-"textual";"Restaurantes";"Restaurantes";"RESTAURANTE"
-"textual";"Restaurantes";"Restaurantes";"SOARES E SOUZ"
-"textual";"Restaurantes";"Restaurantes";"SPOLETO"
-"textual";"Restaurantes";"Restaurantes";"SUMO"
-"textual";"Restaurantes";"Restaurantes";"TOUJOURS BISTROT"
-"textual";"Restaurantes";"Restaurantes";"XIQUE XIQUE"
-"textual";"Saúde";"Consultas/Exames";"ANGIOVITTA"
-"textual";"Saúde";"Medicamento";"DROG "
-"textual";"Saúde";"Medicamento";"DROGA "
-"textual";"Saúde";"Medicamento";"DROGARIA"
-"textual";"Saúde";"Medicamento";"FARMACI"
-"textual";"Saúde";"Medicamento";"FARMACIA"
-"textual";"Saúde";"Medicamento";"FARMACOTECNIC"
-"textual";"Saúde";"Yoga";"CYNTHIA"
-"textual";"Saúde";"Yoga";"SOC TEOSOFICA"
-"textual";"Saúde";"Yoga";"SOCIEDADE TEOS"
-"textual";"Saúde";"Yoga";"VIPASSANA"
-"textual";"Utilidades";"Bike";"BIKE"
-"textual";"Utilidades";"Energia";"Energia Elétrica"
-"textual";"Utilidades";"Energia";"Pagamento conta luz"
-"textual";"Utilidades";"Gás";"WK COMERCIAL"
-"textual";"Utilidades";"Passadeira";"5 A SEC"
-"textual";"Utilidades";"Postagens";"AC BANCO CENTRAL"
-"textual";"Utilidades";"Taxi";"EASYTAXI"
-"textual";"Utilidades";"Taxi";"UBER"
-"textual";"Utilidades";"Telefone/Internet";"ITUNES"
-"textual";"Utilidades";"Telefone/Internet";"SPOTIFY"
-"textual";"Utilidades";"Telefone/Internet";"Telefone"
-"textual";"Utilidades";"Telefone/Internet";"Vivo Celular"
-"textual";"Viagem";"Alimentação";"O JARDIM DAS DELICIAS"
-"textual";"Viagem";"Aluguel Carro";"RENTALCARS"
-"textual";"Viagem";"Aluguel Carro";"SICILY BY CAR"
-"textual";"Viagem";"Câmbio";"COMPRA NO EXTERIOR"
-"textual";"Viagem";"Câmbio";"Câmbio"
-"textual";"Viagem";"Câmbio";"I.O.F."
-"textual";"Viagem";"Câmbio";"Tarifa retirada-exterior"
-"textual";"Viagem";"Câmbio";"VAR.CAMBIAL"
-"textual";"Viagem";"Estadia";"CoracaoVe"
-"textual";"Viagem";"Estadia";"HOTEL"
-"textual";"Viagem";"Estadia";"MARQUES DE ABRANTES"
-"textual";"Viagem";"Estadia";"POUSADA "
-"textual";"Viagem";"Passagem Aérea";"AF INTERNET"
-"textual";"Viagem";"Passagem Aérea";"AZUL LINHAS"
-"textual";"Viagem";"Passagem Aérea";"GOL LINHAS"
-"textual";"Viagem";"Passagem Aérea";"GOL TRAN"
-"textual";"Viagem";"Passagem Aérea";"MULTIPLUS"
-"textual";"Viagem";"Passagem Aérea";"PASSARED"
-"textual";"Viagem";"Passagem Aérea";"TAM SITE"
-"textual";"Viagem";"Passagem Aérea";"TAXA DE EMBARQUE"
-"textual";"Viagem";"Passagem Ônibus";"RAPIDO RIB"
-"textual";"Viagem";"Passagem Ônibus";"UNIAO TRANSPORTE"
-"textual";"Viagem";"Passagem Ônibus";"VIACAO"
-"textual";"Viagem";"Passagem Ônibus";"VIAÇÃO"
-"textual";"Viagem";"Turismo";VIVATK
 "amount";"Carro";"Combustível";"PAULO CESAR ";-175.02
-"amount";"Carro";"Seguro";"Pagamento de Título";-327.90
+"amount";"Carro";"Seguro";"Pagamento de Título";-327.9
 "amount";"Diversao";"Festa";"CANTUCCI";-3562.91
-"amount";"Diversao";"Festa";"Cheque";-2900.00
-"amount";"Diversao";"Festa";"H PLUS";-696.90
-"amount";"Diversao";"Festa";"JOSE DE RIBAMAR ";-457.00
-"amount";"Diversao";"Festa";"PEPITA";-156.20
+"amount";"Diversao";"Festa";"Cheque";-2900
+"amount";"Diversao";"Festa";"H PLUS";-696.9
+"amount";"Diversao";"Festa";"JOSE DE RIBAMAR ";-457
+"amount";"Diversao";"Festa";"PEPITA";-156.2
 "amount";"Diversao";"Festa";"PEPITA";-3562.91
-"amount";"Entradas";"Transferências";"DOC";1000.00
-"amount";"Financiamento";;"TED";-2000.00
-"amount";"Investimento";"Renda Fixa";"TED";-4140.00
+"amount";"Entradas";"Transferências";"DOC";1000
+"amount";"Financiamento";"";"TED";-2000
+"amount";"Investimento";"Renda Fixa";"TED";-4140
 "amount";"Investimento";"Renda Fixa";"TED";-3067.99
 "amount";"Investimento";"Renda Fixa";"TED";-2032.21
-"amount";"Saúde";"Consulta";"Cheque";-320.00
+"amount";"Saúde";"Consulta";"Cheque";-320
 "amount";"Saúde";"Consultas/Exames";"Cheque Compensado";-2000
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-390.96
-"amount";"Utilidades";"Condomínio";"Pagamento de Título";-440.00
-"amount";"Utilidades";"Condomínio";"Pagamento de Título";-587.00
-"amount";"Utilidades";"Condomínio";"Pagamento de Título";-598.00
+"amount";"Utilidades";"Condomínio";"Pagamento de Título";-440
+"amount";"Utilidades";"Condomínio";"Pagamento de Título";-587
+"amount";"Utilidades";"Condomínio";"Pagamento de Título";-598
 "amount";"Viagem";"Câmbio";"Saque com Cartão";-1135.32
+"textual";"Alimentação";"Mercado";"ALIMENTOS";NA
+"textual";"Alimentação";"Mercado";"BIB BOX";NA
+"textual";"Alimentação";"Mercado";"BIG BOX";NA
+"textual";"Alimentação";"Mercado";"CARREFOUR";NA
+"textual";"Alimentação";"Mercado";"CH PLANALTAO";NA
+"textual";"Alimentação";"Mercado";"CONVENIENCIA";NA
+"textual";"Alimentação";"Mercado";"ELEVE MERCADO";NA
+"textual";"Alimentação";"Mercado";"EXTRA ";NA
+"textual";"Alimentação";"Mercado";"FRUTARIA";NA
+"textual";"Alimentação";"Mercado";"HORTIFRUTI";NA
+"textual";"Alimentação";"Mercado";"JC SILVA NETO";NA
+"textual";"Alimentação";"Mercado";"MEL DO SOL";NA
+"textual";"Alimentação";"Mercado";"PAO DE ACUCAR";NA
+"textual";"Alimentação";"Mercado";"REDE DA ECONOMIA";NA
+"textual";"Alimentação";"Mercado";"SUPER ADEGA";NA
+"textual";"Alimentação";"Mercado";"SUPERMERCADOS";NA
+"textual";"Alimentação";"Mercado";"TORTERIA";NA
+"textual";"Alimentação";"Mercado";"TOSCANELLO";NA
+"textual";"Alimentação";"Mercado";"VERDURAO";NA
+"textual";"Alimentação";"Mercado";"WAL MART";NA
+"textual";"Alimentação";"Padaria";"CASA DOCES E QUEIJO";NA
+"textual";"Alimentação";"Padaria";"PADARIA";NA
+"textual";"Alimentação";"Padaria";"PAES ";NA
+"textual";"Alimentação";"Padaria";"PANIFICADORA";NA
+"textual";"Alimentação";"Padaria";"PAO ";NA
+"textual";"Carro";"Combustível";"CASCOL COMBUSTIVEIS";NA
+"textual";"Carro";"Combustível";"POSTO ";NA
+"textual";"Carro";"Combustível";"SHELL";NA
+"textual";"Carro";"Combustível";"VERDE AMARELO";NA
+"textual";"Carro";"Estacionamento";"AEROPORTO BRASILIA";NA
+"textual";"Carro";"Estacionamento";"EST. IGUATEMI";NA
+"textual";"Carro";"Impostos/Multas";"DETRAN";NA
+"textual";"Carro";"Impostos/Multas";"INSTITUTO BOTELHO";NA
+"textual";"Carro";"Manutenção";"BATERIA";NA
+"textual";"Carro";"Manutenção";"HONDA PLAZA";NA
+"textual";"Carro";"Manutenção";"PIONEIRA DA BORRACHA";NA
+"textual";"Carro";"Manutenção";"SMAFF ASA NOR";NA
+"textual";"Carro";"Seguro";"Pagto Mensalidade Seguro";NA
+"textual";"Cartão Crédito";"Cartão Crédito";"PGTO DEBITO CONTA";NA
+"textual";"Cartão Crédito";"Cartão Crédito";"Pagto cartão crédito";NA
+"textual";"Compras";"Casa";"ATLANTIDA";NA
+"textual";"Compras";"Casa";"DULAR";NA
+"textual";"Compras";"Casa";"LEROY MERLIN";NA
+"textual";"Compras";"Casa";"TOK";NA
+"textual";"Compras";"Casa";"ZELO-BRASILIA";NA
+"textual";"Compras";"Compras";"SARAIVA";NA
+"textual";"Compras";"Compras";"SUBMARINO";NA
+"textual";"Compras";"Livros";"EDITORA ANTROPOSOFICA";NA
+"textual";"Compras";"Livros";"EDITORA TEOSOFICA";NA
+"textual";"Compras";"Livros";"LIVR MARTINS FONTES";NA
+"textual";"Compras";"Livros";"LIVRARIA ";NA
+"textual";"Compras";"Roupas";"CAMISETAS LEGAIS";NA
+"textual";"Compras";"Roupas";"DAMYLLER";NA
+"textual";"Compras";"Roupas";"DECATHLTON";NA
+"textual";"Compras";"Roupas";"HENRING STORE";NA
+"textual";"Compras";"Roupas";"HERING";NA
+"textual";"Compras";"Roupas";"NETSHOES";NA
+"textual";"Compras";"Roupas";"VILA ROMANA";NA
+"textual";"Diversao";"Cinema";"CINEMA";NA
+"textual";"Diversao";"Diversao";"KART ";NA
+"textual";"Diversao";"Diversao";"RIO 2016";NA
+"textual";"Entradas";"Alugueis";"PIRAMID IMOV";NA
+"textual";"Entradas";"Aluguel";"DOC-Fornecedor";NA
+"textual";"Entradas";"Depósito";"Depósito";NA
+"textual";"Entradas";"Devoluções";"Recebimentos Diversos";NA
+"textual";"Entradas";"Diárias";"Diárias";NA
+"textual";"Entradas";"Proventos";"BACEN";NA
+"textual";"Entradas";"Resgates";"Resgate BB CDB";NA
+"textual";"Entradas";"Resgates";"Resgate Poupança";NA
+"textual";"Entradas";"Resgates";"Transferido da poupança";NA
+"textual";"Entradas";"Transferências";"DOC Crédito em Conta";NA
+"textual";"Impostos/Taxas";"Impostos";"DARF/RFB";NA
+"textual";"Impostos/Taxas";"Impostos";"Impostos";NA
+"textual";"Impostos/Taxas";"Impostos";"Taxa Semestral";NA
+"textual";"Impostos/Taxas";"Impostos";"Taxas";NA
+"textual";"Impostos/Taxas";"Impostos";"VENDACAMBIO";NA
+"textual";"Impostos/Taxas";"Tarifa";"Tarifa";NA
+"textual";"Impostos/Taxas";"Tarifa";"tarifa";NA
+"textual";"Investimento";"Projeto Mirtilo";"FELIPE VITALIA";NA
+"textual";"Investimento";"Projeto Mirtilo";"HIDROMAR";NA
+"textual";"Investimento";"Renda Fixa";"Aplicação BB CDB DI";NA
+"textual";"Investimento";"Renda Fixa";"Aplicação Poupança";NA
+"textual";"Investimento";"Renda Fixa";"Cooperforte";NA
+"textual";"Investimento";"Renda Fixa";"LCA";NA
+"textual";"Investimento";"Renda Fixa";"LCI";NA
+"textual";"Investimento";"Renda Fixa";"Tesouro Direto-Compra";NA
+"textual";"Outros";"Gastos em Dinheiro";"Banco 24";NA
+"textual";"Outros";"Gastos em Dinheiro";"Saque";NA
+"textual";"Outros";"Outros";"BRAPPAS";NA
+"textual";"Outros";"Outros";"CINE FOTO JM";NA
+"textual";"Outros";"Outros";"Compra com Cartão";NA
+"textual";"Outros";"Outros";"FELIPE ANTONIO";NA
+"textual";"Outros";"Outros";"MARISA SCHIMME";NA
+"textual";"Outros";"Outros";"RAFAEL M SANTO";NA
+"textual";"Outros";"Transferencias";"Emissão de DOC";NA
+"textual";"Outros";"Transferencias";"TED";NA
+"textual";"Presentes";"Presentes";"BRINQUEDOS";NA
+"textual";"Presentes";"Presentes";"CAMICADO";NA
+"textual";"Presentes";"Presentes";"PRESENTES";NA
+"textual";"Restaurantes";"Almoço";"AMOR A NATUREZA";NA
+"textual";"Restaurantes";"Almoço";"ARABEKS";NA
+"textual";"Restaurantes";"Almoço";"ARABESK";NA
+"textual";"Restaurantes";"Almoço";"ASHRAM";NA
+"textual";"Restaurantes";"Almoço";"BAR BRAHMA";NA
+"textual";"Restaurantes";"Almoço";"BENDITA GULA";NA
+"textual";"Restaurantes";"Almoço";"BIER HAUS";NA
+"textual";"Restaurantes";"Almoço";"CANTUCCI";NA
+"textual";"Restaurantes";"Almoço";"COZINHA E SABOR";NA
+"textual";"Restaurantes";"Almoço";"DONA LENHA";NA
+"textual";"Restaurantes";"Almoço";"FLOR DE LOTUS";NA
+"textual";"Restaurantes";"Almoço";"GRANDE MURALHA";NA
+"textual";"Restaurantes";"Almoço";"GREEN S";NA
+"textual";"Restaurantes";"Almoço";"GREENS";NA
+"textual";"Restaurantes";"Almoço";"MANARA";NA
+"textual";"Restaurantes";"Almoço";"MAORI";NA
+"textual";"Restaurantes";"Almoço";"MONARDO";NA
+"textual";"Restaurantes";"Almoço";"NATURETTO";NA
+"textual";"Restaurantes";"Almoço";"PEIXE NA REDE";NA
+"textual";"Restaurantes";"Almoço";"PORKETA";NA
+"textual";"Restaurantes";"Almoço";"SABOR GLACE";NA
+"textual";"Restaurantes";"Almoço";"SANCHO PANCA";NA
+"textual";"Restaurantes";"Almoço";"SEVERINA";NA
+"textual";"Restaurantes";"Almoço";"TAURUS EVENTOS";NA
+"textual";"Restaurantes";"Almoço";"TICIANA WERNER";NA
+"textual";"Restaurantes";"Café";"CAFE";NA
+"textual";"Restaurantes";"Café";"COFFE CO";NA
+"textual";"Restaurantes";"Café";"MARCELO G MEIR";NA
+"textual";"Restaurantes";"Café";"NESPRESSO";NA
+"textual";"Restaurantes";"Café";"OBJETO ENCONTRADO";NA
+"textual";"Restaurantes";"Restaurantes";"A TRIBO";NA
+"textual";"Restaurantes";"Restaurantes";"ALL BLACK";NA
+"textual";"Restaurantes";"Restaurantes";"ANA MARIA CAIXETA";NA
+"textual";"Restaurantes";"Restaurantes";"BABBO GIOVANNI";NA
+"textual";"Restaurantes";"Restaurantes";"BANANALAND";NA
+"textual";"Restaurantes";"Restaurantes";"BAR ";NA
+"textual";"Restaurantes";"Restaurantes";"BARBIRO";NA
+"textual";"Restaurantes";"Restaurantes";"BATTATARIA";NA
+"textual";"Restaurantes";"Restaurantes";"BIER FASS";NA
+"textual";"Restaurantes";"Restaurantes";"BUDA BEACH";NA
+"textual";"Restaurantes";"Restaurantes";"CAMARAO";NA
+"textual";"Restaurantes";"Restaurantes";"CASA DA ROCA ALIMENTOS";NA
+"textual";"Restaurantes";"Restaurantes";"CERVEJAS";NA
+"textual";"Restaurantes";"Restaurantes";"CHIQUITA";NA
+"textual";"Restaurantes";"Restaurantes";"CHOPARIA";NA
+"textual";"Restaurantes";"Restaurantes";"CONFRARIA";NA
+"textual";"Restaurantes";"Restaurantes";"EMPORIO SOARES";NA
+"textual";"Restaurantes";"Restaurantes";"FAUSTO";NA
+"textual";"Restaurantes";"Restaurantes";"FORTUNELLO";NA
+"textual";"Restaurantes";"Restaurantes";"FRATELLO";NA
+"textual";"Restaurantes";"Restaurantes";"GRILL";NA
+"textual";"Restaurantes";"Restaurantes";"KOJIMA";NA
+"textual";"Restaurantes";"Restaurantes";"KONI";NA
+"textual";"Restaurantes";"Restaurantes";"LA FORNACELLA";NA
+"textual";"Restaurantes";"Restaurantes";"LA GIOCONDA";NA
+"textual";"Restaurantes";"Restaurantes";"LE JARDIN";NA
+"textual";"Restaurantes";"Restaurantes";"LIBANUS";NA
+"textual";"Restaurantes";"Restaurantes";"MARZUK";NA
+"textual";"Restaurantes";"Restaurantes";"MODESTIA A PARTE";NA
+"textual";"Restaurantes";"Restaurantes";"MONUMENTAL";NA
+"textual";"Restaurantes";"Restaurantes";"NA VENDA UK BRAZIL";NA
+"textual";"Restaurantes";"Restaurantes";"NANNAI";NA
+"textual";"Restaurantes";"Restaurantes";"NAPOLITANA COMERCIO";NA
+"textual";"Restaurantes";"Restaurantes";"NAU ";NA
+"textual";"Restaurantes";"Restaurantes";"NINNY";NA
+"textual";"Restaurantes";"Restaurantes";"NOI ";NA
+"textual";"Restaurantes";"Restaurantes";"O BOTECO";NA
+"textual";"Restaurantes";"Restaurantes";"OUTBACK";NA
+"textual";"Restaurantes";"Restaurantes";"PARVATI ";NA
+"textual";"Restaurantes";"Restaurantes";"PINELLA";NA
+"textual";"Restaurantes";"Restaurantes";"PIZZARIA";NA
+"textual";"Restaurantes";"Restaurantes";"PIZZERIA";NA
+"textual";"Restaurantes";"Restaurantes";"PORTAL CHAPEU DE BICO";NA
+"textual";"Restaurantes";"Restaurantes";"RANCHO CANABRAVA";NA
+"textual";"Restaurantes";"Restaurantes";"REST ";NA
+"textual";"Restaurantes";"Restaurantes";"REST.";NA
+"textual";"Restaurantes";"Restaurantes";"RESTAURANTE";NA
+"textual";"Restaurantes";"Restaurantes";"SOARES E SOUZ";NA
+"textual";"Restaurantes";"Restaurantes";"SPOLETO";NA
+"textual";"Restaurantes";"Restaurantes";"SUMO";NA
+"textual";"Restaurantes";"Restaurantes";"TOUJOURS BISTROT";NA
+"textual";"Restaurantes";"Restaurantes";"XIQUE XIQUE";NA
+"textual";"Saúde";"Consultas/Exames";"ANGIOVITTA";NA
+"textual";"Saúde";"Medicamento";"DROG ";NA
+"textual";"Saúde";"Medicamento";"DROGA ";NA
+"textual";"Saúde";"Medicamento";"DROGARIA";NA
+"textual";"Saúde";"Medicamento";"FARMACI";NA
+"textual";"Saúde";"Medicamento";"FARMACIA";NA
+"textual";"Saúde";"Medicamento";"FARMACOTECNIC";NA
+"textual";"Saúde";"Yoga";"CYNTHIA";NA
+"textual";"Saúde";"Yoga";"SOC TEOSOFICA";NA
+"textual";"Saúde";"Yoga";"SOCIEDADE TEOS";NA
+"textual";"Saúde";"Yoga";"VIPASSANA";NA
+"textual";"Utilidades";"Bike";"BIKE";NA
+"textual";"Utilidades";"Energia";"Energia Elétrica";NA
+"textual";"Utilidades";"Energia";"Pagamento conta luz";NA
+"textual";"Utilidades";"Gás";"WK COMERCIAL";NA
+"textual";"Utilidades";"Passadeira";"5 A SEC";NA
+"textual";"Utilidades";"Postagens";"AC BANCO CENTRAL";NA
+"textual";"Utilidades";"Taxi";"EASYTAXI";NA
+"textual";"Utilidades";"Taxi";"UBER";NA
+"textual";"Utilidades";"Telefone/Internet";"ITUNES";NA
+"textual";"Utilidades";"Telefone/Internet";"SPOTIFY";NA
+"textual";"Utilidades";"Telefone/Internet";"Telefone";NA
+"textual";"Utilidades";"Telefone/Internet";"Vivo Celular";NA
+"textual";"Viagem";"Alimentação";"O JARDIM DAS DELICIAS";NA
+"textual";"Viagem";"Aluguel Carro";"RENTALCARS";NA
+"textual";"Viagem";"Aluguel Carro";"SICILY BY CAR";NA
+"textual";"Viagem";"Câmbio";"COMPRA NO EXTERIOR";NA
+"textual";"Viagem";"Câmbio";"Câmbio";NA
+"textual";"Viagem";"Câmbio";"I.O.F.";NA
+"textual";"Viagem";"Câmbio";"Tarifa retirada-exterior";NA
+"textual";"Viagem";"Câmbio";"VAR.CAMBIAL";NA
+"textual";"Viagem";"Estadia";"CoracaoVe";NA
+"textual";"Viagem";"Estadia";"HOTEL";NA
+"textual";"Viagem";"Estadia";"MARQUES DE ABRANTES";NA
+"textual";"Viagem";"Estadia";"POUSADA ";NA
+"textual";"Viagem";"Passagem Aérea";"AF INTERNET";NA
+"textual";"Viagem";"Passagem Aérea";"AZUL LINHAS";NA
+"textual";"Viagem";"Passagem Aérea";"GOL LINHAS";NA
+"textual";"Viagem";"Passagem Aérea";"GOL TRAN";NA
+"textual";"Viagem";"Passagem Aérea";"MULTIPLUS";NA
+"textual";"Viagem";"Passagem Aérea";"PASSARED";NA
+"textual";"Viagem";"Passagem Aérea";"TAM SITE";NA
+"textual";"Viagem";"Passagem Aérea";"TAXA DE EMBARQUE";NA
+"textual";"Viagem";"Passagem Ônibus";"RAPIDO RIB";NA
+"textual";"Viagem";"Passagem Ônibus";"UNIAO TRANSPORTE";NA
+"textual";"Viagem";"Passagem Ônibus";"VIACAO";NA
+"textual";"Viagem";"Passagem Ônibus";"VIAÇÃO";NA
+"textual";"Viagem";"Turismo";"VIVATK";NA
