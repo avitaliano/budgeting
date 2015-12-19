@@ -1,14 +1,16 @@
 "match_type";"class";"subclass";"match_expression";"match_amount"
 "amount";"Carro";"Combustível";"PAULO CESAR ";-175.02
 "amount";"Carro";"Seguro";"Pagamento de Título";-327.9
+"amount";"Carro";"IPVA";"PG ORG GOV";-1220.17
 "amount";"Diversao";"Festa";"CANTUCCI";-3562.91
 "amount";"Diversao";"Festa";"Cheque";-2900
 "amount";"Diversao";"Festa";"H PLUS";-696.9
 "amount";"Diversao";"Festa";"JOSE DE RIBAMAR ";-457
 "amount";"Diversao";"Festa";"PEPITA";-156.2
 "amount";"Diversao";"Festa";"PEPITA";-3562.91
+"amount";"Doações";"GEAE";"CHEQ COMP";-200.00
 "amount";"Entradas";"Transferências";"DOC";1000
-"amount";"Financiamento";"";"TED";-2000
+"amount";"Outros";"Transferencias";"TED";-2000
 "amount";"Investimento";"Renda Fixa";"TED";-4140
 "amount";"Investimento";"Renda Fixa";"TED";-3067.99
 "amount";"Investimento";"Renda Fixa";"TED";-2032.21
@@ -86,16 +88,19 @@
 "textual";"Entradas";"Devoluções";"Recebimentos Diversos";NA
 "textual";"Entradas";"Diárias";"Diárias";NA
 "textual";"Entradas";"Proventos";"BACEN";NA
+"textual";"Entradas";"Proventos";"CT SALARIO";NA
 "textual";"Entradas";"Resgates";"Resgate BB CDB";NA
 "textual";"Entradas";"Resgates";"Resgate Poupança";NA
 "textual";"Entradas";"Resgates";"Transferido da poupança";NA
 "textual";"Entradas";"Transferências";"DOC Crédito em Conta";NA
+"textual";"Financiamento";"Finame";"PREST HAB";NA
 "textual";"Impostos/Taxas";"Impostos";"DARF/RFB";NA
 "textual";"Impostos/Taxas";"Impostos";"Impostos";NA
 "textual";"Impostos/Taxas";"Impostos";"Taxa Semestral";NA
 "textual";"Impostos/Taxas";"Impostos";"Taxas";NA
 "textual";"Impostos/Taxas";"Impostos";"VENDACAMBIO";NA
 "textual";"Impostos/Taxas";"Tarifa";"Tarifa";NA
+"textual";"Impostos/Taxas";"Tarifa";"DEB CESTA";NA
 "textual";"Impostos/Taxas";"Tarifa";"tarifa";NA
 "textual";"Investimento";"Projeto Mirtilo";"FELIPE VITALIA";NA
 "textual";"Investimento";"Projeto Mirtilo";"HIDROMAR";NA
@@ -107,7 +112,9 @@
 "textual";"Investimento";"Renda Fixa";"Tesouro Direto-Compra";NA
 "textual";"Outros";"Gastos em Dinheiro";"Banco 24";NA
 "textual";"Outros";"Gastos em Dinheiro";"Saque";NA
+"textual";"Outros";"Gastos em Dinheiro";"SAQUE ATM";NA
 "textual";"Outros";"Outros";"BRAPPAS";NA
+"textual";"Outros";"Outros";"CP ELO";NA
 "textual";"Outros";"Outros";"CINE FOTO JM";NA
 "textual";"Outros";"Outros";"Compra com Cartão";NA
 "textual";"Outros";"Outros";"FELIPE ANTONIO";NA
@@ -115,6 +122,8 @@
 "textual";"Outros";"Outros";"RAFAEL M SANTO";NA
 "textual";"Outros";"Transferencias";"Emissão de DOC";NA
 "textual";"Outros";"Transferencias";"TED";NA
+"textual";"Outros";"Transferencias";"DOC ELET E";NA
+"textual";"Outros";"Outros";"PAG BOLETO";NA
 "textual";"Presentes";"Presentes";"BRINQUEDOS";NA
 "textual";"Presentes";"Presentes";"CAMICADO";NA
 "textual";"Presentes";"Presentes";"PRESENTES";NA
@@ -192,8 +201,8 @@
 "textual";"Restaurantes";"Restaurantes";"PIZZERIA";NA
 "textual";"Restaurantes";"Restaurantes";"PORTAL CHAPEU DE BICO";NA
 "textual";"Restaurantes";"Restaurantes";"RANCHO CANABRAVA";NA
-"textual";"Restaurantes";"Restaurantes";"REST ";NA
-"textual";"Restaurantes";"Restaurantes";"REST.";NA
+"textual";"Restaurantes";"Restaurantes";"^REST ";NA
+"textual";"Restaurantes";"Restaurantes";"^REST.";NA
 "textual";"Restaurantes";"Restaurantes";"RESTAURANTE";NA
 "textual";"Restaurantes";"Restaurantes";"SOARES E SOUZ";NA
 "textual";"Restaurantes";"Restaurantes";"SPOLETO";NA
