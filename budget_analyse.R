@@ -6,13 +6,10 @@ library(stringr)
 # removes scientific notation
 options(scipen=999)
 
-# setting csv base dir
-csv_basepath = "~/Documents/SpiderOak/Financeiro/ofx/"
-
 load_ofx_flat <- function(basedir){
         
     # lists csv files
-    csv_list <- paste( csv_basepath, list.files(pattern = "*.csv", path = csv_basepath, recursive = TRUE), sep = '')
+    csv_list <- paste( basedir, list.files(pattern = "*.csv", path = csv_basepath, recursive = TRUE), sep = '')
 
     colClasses <- c('integer', 'string', 'string', 'string', 'string', 'string', 'factor', 'double', 'factor',
                     'date', 'date', 'string', 'string', 'date', 'double',  'string', 'factor', 'string')
@@ -199,6 +196,8 @@ append_monthly_expenses <- function(dt, classes){
 }
 
 # init procedures
+# setting csv base dir
+csv_basepath = "~/Documents/SpiderOak/Financeiro/ofx/"
 classes <- load_classes("classes.csv")
 dt <- load_ofx_flat(csv_basepath)
 classify_all_transactions(dt, classes)
