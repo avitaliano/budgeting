@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
 # @author Arnaldo Vitaliano (vitaliano@gmail.com)
+# This script parses ofx to csv using ofxparse library
 
 import os, glob
 import string

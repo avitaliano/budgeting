@@ -6,10 +6,11 @@ library(stringr)
 # removes scientific notation
 options(scipen=999)
 
-# setting wd
+# setting csv base dir
 csv_basepath = "~/Documents/SpiderOak/Financeiro/ofx/"
 
 load_ofx_flat <- function(basedir){
+        
     # lists csv files
     csv_list <- paste( csv_basepath, list.files(pattern = "*.csv", path = csv_basepath, recursive = TRUE), sep = '')
 
@@ -25,6 +26,7 @@ load_ofx_flat <- function(basedir){
     dt$t.date <- as.Date(dt$t.date)
 
     dt[, t.month := as.Date(strftime(t.date, "%Y-%m-01")) ]
+    dt[, year := year(t.date) ]
 
     dt
 }
@@ -100,36 +102,60 @@ classify_all_transactions <- function(dt, classes){
 
 }
 
-plot_expenses_by_class <- function(dt, in_year, in_currency){
+sum_expenses_by_class <- function(dt, in_year, in_currency = "BRL"){
+        # sum by class and year
+        sum <- dt[ year == in_year & stat.currency == in_currency, 
+                   sum(t.amount),
+                   by = .(year, stat.currency, t.class)]
+        
+        # total income = class "Entradas"
+        total_income <- sum[t.class =="Entradas"][,V1]
+        sum[, perc := V1 / total_income * -1]
+        
+        # returns
+        sum[order(-V1)]
+}
 
-    # sum by class
-    sum_by_year_class <- dt[ order(year(t.month)), sum(t.amount),
-                            by = .(year(t.month), stat.currency,t.class)]
+sum_expenses_by_subclass <- function(dt, in_year, in_class, in_currency = "BRL"){
+        # sum by class and year
+        sum <- dt[ year == in_year & t.class == in_class & stat.currency == in_currency, 
+                   sum(t.amount),
+                   by = .(year, stat.currency, t.subclass)]
+        
+        total <- sum[, sum(V1)]
+        sum[, perc := V1 / total]
+        sum
+}
 
-    # filter the year, currency and get expenses '< 0'
-    d <- sum_by_year_class[year == in_year
-                           & stat.currency == in_currency
-                           & V1 < 0 ][order(-V1)]
+preview_by_class <- function(dt,in_year, in_class){
+        dt[year(t.month) == in_year & t.class == in_class,
+           .(t.subclass,t.date,t.memo,t.amount)]
+}
+
+plot_expenses_by_class <- function(dt, in_year, in_currency = "BRL", filter_investment = TRUE){
+
+    # sum by class, filtering by year and currency
+    sum <- sum_expenses_by_class(dt, in_year)
+
+    # filter currency and income class (entradas)'
+    sum <- sum[stat.currency == in_currency & t.class != "Entradas"][order(-V1)]
 
     # filter investments
-    d <- d[t.class != "Investimento"]
-
-    # signal
-    if ( max(d$V1) < 0 ) {
-        slices <- d$V1 * -1
-    } else {
-        slices <- d$V1
+    if ( filter_investment == TRUE){
+            sum <- sum[ t.class != "Investimento"][order(-V1)]
     }
+    
+    # data
+    slices <- abs(sum[,V1])
+    lbls <- sum[,t.class]
 
-    lbls <- d$t.class
-
-    pct <- round(slices/sum(slices)*100)
+    total <- sum(slices)
+    
+    pct <- round( slices / total * 100 )
     lbls <- paste(lbls, pct) # add percents to labels 
     lbls <- paste(lbls,"%",sep="") # ad % to labels 
 
-    total <- sum(d$V1) * -1
-
-    main <- paste("Gastos por Categoria em ", in_year, ": (",  in_currency, ") ",
+    main <- paste("Gastos por categoria (", in_year, "): ",  in_currency, " ",
                   format(total, digits=10, nsmall=2, decimal.mark=",", big.mark="."),
                   sep = "")
 
@@ -138,30 +164,21 @@ plot_expenses_by_class <- function(dt, in_year, in_currency){
     #legend("bottom", lbls, fill = collors)
 }
 
-plot_expenses_by_subclass <- function(dt, in_year, in_currency, in_class){
+plot_expenses_by_subclass <- function(dt, in_year, in_class, in_currency = "BRL"){
 
     # sum by subclass
-    sum_by_year_class <- dt[ order(year(t.month)), sum(t.amount), 
-                            by = .( year(t.month), stat.currency,t.class, t.subclass)]
+    sum <- sum_expenses_by_subclass(dt, in_year, in_class, in_currency)
 
     # filter the year, currency, class and get expenses '< 0'
-    d <- sum_by_year_class[year == in_year 
-                           & stat.currency == in_currency 
-                           & t.class == in_class 
-                           ][order(-V1)]
+    sum <- sum[order(-V1)]
 
     # signal
-    if ( max(d$V1) < 0 ) {
-        slices <- d$V1 * -1
-        total <- sum(d$V1) * -1
-    } else {
-        slices <- d$V1
-        total <- sum(d$V1)
-    }
+    slices <- abs(sum[,V1])
+    lbls <- sum[,t.subclass]
 
-    lbls <- d$t.subclass
-
-    pct <- round(slices/sum(slices)*100)
+    total <- sum(slices)
+    
+    pct <- round( slices / total * 100)
     lbls <- paste(lbls, pct) # add percents to labels 
     lbls <- paste(lbls,"%",sep="") # ad % to labels 
 
@@ -176,15 +193,14 @@ plot_expenses_by_subclass <- function(dt, in_year, in_currency, in_class){
 # the expenses are indicated in the classes.csv file as "monthly"match type
 append_monthly_expenses <- function(dt, classes){
 
+        # to-do: not implemented
     classes <- classes[match_type == "monthly"]
     
-        
-
 }
 
 # init procedures
 classes <- load_classes("classes.csv")
 dt <- load_ofx_flat(csv_basepath)
-dt <- classify_all_transactions(dt, classes)
+classify_all_transactions(dt, classes)
 
-plot_expenses_by_class(dt, 2015, "BRL")
+plot_expenses_by_class(dt, 2015, "BRL", TRUE)
