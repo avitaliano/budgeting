@@ -99,29 +99,44 @@ classify_all_transactions <- function(dt, classes){
 
 }
 
-sum_expenses_by_class <- function(dt, in_year, in_currency = "BRL"){
-        # sum by class and year
-        sum <- dt[ year == in_year & stat.currency == in_currency, 
-                   sum(t.amount),
-                   by = .(year, stat.currency, t.class)]
-        
-        # total income = class "Entradas"
-        total_income <- sum[t.class =="Entradas"][,V1]
-        sum[, perc := V1 / total_income * -1]
+sum_expenses_by_class <- function(dt, in_year, monthly = FALSE, in_currency = "BRL"){
+        # sum by class and year (or month)
+        if (monthly){
+                sum <- dt[ year == in_year & stat.currency == in_currency, 
+                           sum(t.amount),
+                           by = .(t.month, stat.currency, t.class)]
+        }else{
+                sum <- dt[ year == in_year & stat.currency == in_currency, 
+                           sum(t.amount),
+                           by = .(year, stat.currency, t.class)]
+        }
         
         # returns
-        sum[order(-V1)]
+        if (monthly){
+                sum[order(t.month, t.class)]
+        }else{
+                sum[order(-V1)]        
+        }
 }
 
-sum_expenses_by_subclass <- function(dt, in_year, in_class, in_currency = "BRL"){
-        # sum by class and year
-        sum <- dt[ year == in_year & t.class == in_class & stat.currency == in_currency, 
-                   sum(t.amount),
-                   by = .(year, stat.currency, t.subclass)]
-        
-        total <- sum[, sum(V1)]
-        sum[, perc := V1 / total]
-        sum
+sum_expenses_by_subclass <- function(dt, in_year, in_class, monthly = FALSE, in_currency = "BRL"){
+        # sum by class and year (or month)
+        if(monthly){
+                sum <- dt[ year == in_year & t.class == in_class & stat.currency == in_currency, 
+                           sum(t.amount),
+                           by = .(t.month, stat.currency, t.subclass)]
+        }else{
+                sum <- dt[ year == in_year & t.class == in_class & stat.currency == in_currency, 
+                           sum(t.amount),
+                           by = .(year, stat.currency, t.subclass)]        
+        }
+
+        # returns
+        if (monthly){
+                sum[order(t.month, t.class)]
+        }else{
+                sum[order(-V1)]        
+        }
 }
 
 preview_by_class <- function(dt,in_year, in_class){
@@ -129,7 +144,9 @@ preview_by_class <- function(dt,in_year, in_class){
            .(t.subclass,t.date,t.memo,t.amount)]
 }
 
-plot_expenses_by_class <- function(dt, in_year, in_currency = "BRL", filter_investment = TRUE){
+plot_expenses_by_class <- function(dt, in_year, 
+                                   filter_investment = TRUE, 
+                                   in_currency = "BRL"){
 
     # sum by class, filtering by year and currency
     sum <- sum_expenses_by_class(dt, in_year)
@@ -202,4 +219,4 @@ classes <- load_classes("classes.csv")
 dt <- load_ofx_flat(csv_basepath)
 classify_all_transactions(dt, classes)
 
-plot_expenses_by_class(dt, 2015, "BRL", TRUE)
+plot_expenses_by_class(dt, 2015)

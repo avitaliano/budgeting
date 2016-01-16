@@ -87,5 +87,5 @@ def list_ofx_files(dir):
 
   return return_list
 
-for ofx in list_ofx_files('/Users/arnaldo/Documents/SpiderOak/Financeiro/ofx'):
+for ofx in list_ofx_files('/Users/arnaldo/Documents/SpiderOak/Financeiro/ofx/SANTANDER'):
   parse_ofx(ofx)

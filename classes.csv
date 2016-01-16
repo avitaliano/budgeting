@@ -9,10 +9,11 @@
 "amount";"Diversao";"Festa";"PEPITA";-156.2
 "amount";"Doações";"GEAE";"CHEQ COMP";-200.00
 "amount";"Entradas";"Transferências";"DOC";1000
-"amount";"Outros";"Transferencias";"TED";-2000
+"amount";"Transferencias";"TED";"TED";-2000
 "amount";"Investimento";"Renda Fixa";"TED";-4140
 "amount";"Investimento";"Renda Fixa";"TED";-3067.99
 "amount";"Investimento";"Renda Fixa";"TED";-2032.21
+"amount";"Investimento";"Terra Prospera";"TED";-5700
 "amount";"Saúde";"Consulta";"Cheque";-320
 "amount";"Saúde";"Consultas/Exames";"Cheque Compensado";-2000
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-390.96
@@ -20,6 +21,21 @@
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-587
 "amount";"Utilidades";"Condomínio";"Pagamento de Título";-598
 "amount";"Viagem";"Turismo";"Saque com Cartão";-1135.32
+"textual";"Outros";"Gastos em Dinheiro";"Banco 24";NA
+"textual";"Outros";"Gastos em Dinheiro";"Saque";NA
+"textual";"Outros";"Gastos em Dinheiro";"SAQUE ATM";NA
+"textual";"Outros";"Diversos";"BRAPPAS";NA
+"textual";"Outros";"Diversos";"CP ELO";NA
+"textual";"Outros";"Diversos";"CINE FOTO JM";NA
+"textual";"Outros";"Diversos";"Compra com Cartão";NA
+"textual";"Outros";"Diversos";"FELIPE ANTONIO";NA
+"textual";"Outros";"Diversos";"MARISA SCHIMME";NA
+"textual";"Outros";"Diversos";"RAFAEL M SANTO";NA
+"textual";"Outros";"Transferencias";"Emissão de DOC";NA
+"textual";"Outros";"Transferencias";"TED";NA
+"textual";"Outros";"Transferencias";"DOC ELET E";NA
+"textual";"Outros";"Diversos";"PAG BOLETO";NA
+"textual";"Outros";"Diversos";"AC BANCO CENTRAL";NA
 "textual";"Alimentação";"Mercado/Comida";"ALIMENTOS";NA
 "textual";"Alimentação";"Mercado/Comida";"BIB BOX";NA
 "textual";"Alimentação";"Mercado/Comida";"BIG BOX";NA
@@ -194,23 +210,9 @@
 "textual";"Investimento";"Renda Fixa";"LCA";NA
 "textual";"Investimento";"Renda Fixa";"LCI";NA
 "textual";"Investimento";"Renda Fixa";"Tesouro Direto-Compra";NA
+"textual";"Investimento";"Renda Fixa";"140 0001";NA
 "textual";"Investimento";"Acoes";"RICO CORRETORA";NA
 "textual";"Investimento";"Terra Prospera";"JEFFERSON LUIZ";NA
-"textual";"Outros";"Gastos em Dinheiro";"Banco 24";NA
-"textual";"Outros";"Gastos em Dinheiro";"Saque";NA
-"textual";"Outros";"Gastos em Dinheiro";"SAQUE ATM";NA
-"textual";"Outros";"Diversos";"BRAPPAS";NA
-"textual";"Outros";"Diversos";"CP ELO";NA
-"textual";"Outros";"Diversos";"CINE FOTO JM";NA
-"textual";"Outros";"Diversos";"Compra com Cartão";NA
-"textual";"Outros";"Diversos";"FELIPE ANTONIO";NA
-"textual";"Outros";"Diversos";"MARISA SCHIMME";NA
-"textual";"Outros";"Diversos";"RAFAEL M SANTO";NA
-"textual";"Outros";"Transferencias";"Emissão de DOC";NA
-"textual";"Outros";"Transferencias";"TED";NA
-"textual";"Outros";"Transferencias";"DOC ELET E";NA
-"textual";"Outros";"Diversos";"PAG BOLETO";NA
-"textual";"Outros";"Diversos";"AC BANCO CENTRAL";NA
 "textual";"Saúde";"Consultas/Exames";"ANGIOVITTA";NA
 "textual";"Saúde";"Medicamento";"DROG ";NA
 "textual";"Saúde";"Medicamento";"DROGA ";NA
